@@ -3,7 +3,7 @@ services:
   blockscout:
     depends_on:
       - nitro
-    image: offchainlabs/blockscout:v1.0.0-c8db5b1
+    image: offchainlabs/blockscout:v1.1.0-0e716c8
     restart: always
     links:
       - postgres:database

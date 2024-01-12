@@ -22,9 +22,13 @@ services:
       DATABASE_URL: postgresql://postgres:@postgres:5432/blockscout
       ECTO_USE_SSL: "false"
       NETWORK: ""
-      SUBNETWORK: "Arbitrum Local"
-      BLOCKSCOUT_VERSION: "Arbitrum 0.0.1"
+      SUBNETWORK: "Kameleon Testnet"
+      BLOCKSCOUT_VERSION: "Kameleon 1.0.0"
       PORT: 4000
+      COIN: "KAME"
+      COIN_NAME: "KAME"
+      SHOW_TESTNET_LABEL: true
+      BLOCKSCOUT_HOST: https://explorer-l2-dev.kardiachain.io/
     ports:
       - "127.0.0.1:4000:4000"
 

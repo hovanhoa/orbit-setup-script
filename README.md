@@ -6,3 +6,7 @@ These scripts will help you fund newly generated batch-poster and validator addr
 
 - [Run a single node](./docs/Run-a-single-node.md)
 - [Run multiple nodes](./docs/Run-multiple-nodes.md)
+
+## Note
+
+This repo forked from [OffchainLabs repo](https://github.com/OffchainLabs/orbit-setup-script) with commit id: 683a66df0f023ec212d2601c57712b062e6f148e
